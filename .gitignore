@@ -1,2 +1,9 @@
+### Scala ###
 *.class
-*.log
+target
+
+### Intellij ###
+.idea
+*.iml
+out
+gen
