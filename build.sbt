@@ -7,7 +7,8 @@ ThisBuild / organization := "net.iatsuk"
 lazy val root = (project in file("."))
   .settings(
     name := "sgf-lib",
-    libraryDependencies += scalaTest % Test
+    libraryDependencies += fastParse,
+    libraryDependencies += scalaTest % Test,
   )
 
 // Uncomment the following for publishing to Sonatype.
